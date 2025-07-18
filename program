@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+	int main () {
+    string mystring ="Hello";
+    cout <<"My string :" << mystring<<"\n";
+    cout << "First Char. :"<< mystring.at(0)<<"\n";
+    cout <<"Second char. :"<< mystring.at(1)<<"\n";
+    cout <<"Last Char. :"<< mystring.at(mystring.length()-1)<<"\n";
+    mystring.at(0) ='J';
+    cout <<"change string :"<<mystring;
+    return 0;
+    }
+//IG : devish_h4x
+//yt : celerioff
